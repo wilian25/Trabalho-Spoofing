@@ -1,0 +1,114 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)), url('images/hacker3.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu {
+    list-style: none;
+    padding: auto;
+    max-width: auto;
+    max-height: auto;
+    display: flex;
+    font-weight: bold;
+    display: flexbox;
+    color: #fff;
+    font-size: 15.5px;
+    text-decoration: none;
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+
+
+ul li a.active {
+    font-weight: bold;
+}
+
+header {
+    color: #fff;
+    padding: 0.1rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.595);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    color: #fff;
+    font-size: 15.5px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+header nav a:hover {
+    color: #35A29F;
+    transform: scale(1.05);
+}
+
+header nav a.active {
+    color: #35A29F;
+    font-weight: bold;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+    padding: 50px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+#galeria img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-pequena {
+    margin-left: 15px;
+    width: 105px;
+    height: auto;
+}
