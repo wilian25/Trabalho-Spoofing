@@ -24,7 +24,7 @@ ul {
 .menu {
     list-style: none;
     padding: auto;
-    max-width: auto;
+    max-width: 100%;
     max-height: auto;
     display: flex;
     font-weight: bold;
@@ -34,6 +34,7 @@ ul {
     text-decoration: none;
     transition: 0.2s;
     transform: scale(1.05);
+    margin-right: 17%;
 }
 
 
